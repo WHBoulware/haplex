@@ -1,0 +1,18 @@
+{
+  "name": "Plex (Official)",
+  "version": "1.0.0",
+  "slug": "plex_official",
+  "description": "Official Plex Media Server",
+  "arch": ["amd64", "aarch64"],
+  "startup": "services",
+  "boot": "auto",
+  "init": true,
+  "backup": "cold",
+  "host_network": true,
+  "options": {
+    "PLEX_CLAIM": "claim-GwaEGHBdksSWKUpS5r8M"
+  },
+  "schema": {
+    "PLEX_CLAIM": "str?"
+  }
+}
