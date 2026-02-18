@@ -1,0 +1,2 @@
+# haplex
+Home Assistant Plex
