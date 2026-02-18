@@ -1,0 +1,3 @@
+build_from:
+  amd64: plexinc/pms-docker:latest
+  aarch64: plexinc/pms-docker:latest
